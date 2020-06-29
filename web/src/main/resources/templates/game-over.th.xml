@@ -1,0 +1,16 @@
+<thlogic>
+    <attr sel="#headId"
+          th:replace="~{fragments/head :: headFragment}"/>
+    <attr sel="#game-title" th:text="#{game.title}"/>
+    <attr sel="#game-over-message" th:text="#{game.over.message}"/>
+    <attr sel="#result-message"
+          th:text="${__${T(com.georgidinov.util.AttributeNames).RESULT_MESSAGE}__}"/>
+    <attr sel="#restart"
+          th:href="@{__${T(com.georgidinov.util.GameMappings).RESTART}__}"
+          th:text="#{play.again.message}"/>
+    <attr sel="#home"
+          th:href="@{__${T(com.georgidinov.util.GameMappings).HOME}__}"
+          th:text="#{home.message}"/>
+    <attr sel="#footerId"
+          th:replace="~{fragments/footer :: footerFragment}"/>
+</thlogic>

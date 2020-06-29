@@ -1,0 +1,10 @@
+com\georgidinov\util\ViewNames.class
+com\georgidinov\controller\GameController.class
+com\georgidinov\service\GameServiceImpl.class
+com\georgidinov\util\AttributeNames.class
+com\georgidinov\service\GameService.class
+com\georgidinov\WebMain.class
+com\georgidinov\interceptor\RequestInterceptor.class
+com\georgidinov\util\GameMappings.class
+com\georgidinov\config\WebConfig.class
+com\georgidinov\util\thymeleaf\DecoupledLogicSetup.class

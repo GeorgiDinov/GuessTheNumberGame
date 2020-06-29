@@ -1,0 +1,10 @@
+com\georgidinov\GameImpl.class
+com\georgidinov\MessageGeneratorImpl.class
+com\georgidinov\config\GameConfig.class
+com\georgidinov\GuessCount.class
+com\georgidinov\NumberGenerator.class
+com\georgidinov\MessageGenerator.class
+com\georgidinov\NumberGeneratorImpl.class
+com\georgidinov\MaxNumber.class
+com\georgidinov\MinNumber.class
+com\georgidinov\Game.class
